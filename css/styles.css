@@ -30,6 +30,11 @@ h4 {
 h5 {
   font-size: 12px;
 }
+
+p {
+  margin: 0;
+  padding: 0;
+}
 /* Header Styles */
 header {
   display: flex;
@@ -100,6 +105,7 @@ nav span {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  width: 100%;
 }
 .featTea-photo {
   margin: 10px 0;
