@@ -17,6 +17,7 @@ h2, h4, h5 {
   margin: 0;
   padding: 10px 0;
   font-weight: bold;
+  width: 100%;
 }
 h2 {
   font-size: 32px;
