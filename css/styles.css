@@ -89,17 +89,22 @@ nav span {
 /* Featured Tea Styles */
 .featTea {
   display: flex;
-  align-items: space-around;
+  flex-direction: column;
   width: 1000px;
   margin: 40px auto;
   padding: 0;
   flex-wrap: wrap;
 
 }
-
+#featTea-photos {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
 .featTea-photo {
-  margin-bottom: 10px;
+  margin: 10px 0;
   padding: 0;
+  display: inline-flex;
 }
 
 .featTea-text {
