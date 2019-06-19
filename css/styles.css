@@ -1,3 +1,4 @@
+/* Universal Styles */
 body {
   font-family: Helvetica, sans-serif;
   font-size: 22px;
@@ -12,29 +13,71 @@ a {
   text-decoration: underline;
 }
 
+h2, h4, h5 {
+  margin: 0;
+  padding: 10px 0;
+  font-weight: bold;
+}
+h2 {
+  font-size: 32px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+h5 {
+  font-size: 12px;
+}
+/* Header Styles */
 header {
-  position: fixed;
-  height: 70px;
   display: flex;
-  align-items: space-between;
-  align-content: center;
-  border: 1px solid seashell;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 70px;
+  border-bottom: 1px solid seashell;
   padding: 0 10px;
 }
 
-/*.logo {
+.logo {
   display: inline-flex;
-}*/
+  margin-right: 25px;
+}
 
 .logo img {
   width: 157px;
   height: 50px;
+
 }
 
-nav {
-  display: inline-flex;
+header nav {
+  margin-left: 30px;
 }
 
 nav span {
-  margin-left: 30px;
+  display: inline-block;
+  padding: 5px 10px;
+}
+/* Hero Styles */
+.mission {
+  display: flex;
+  align-items: center;
+  width: 1200px;
+  height: 700px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  margin: 0 auto;
+  padding: 0;
+
+}
+
+.missionBar {
+  background-color: black;
+  width: 1200px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
 }
