@@ -46,7 +46,6 @@ header {
   border-bottom: 1px solid seashell;
   padding: 0 10px;
   background-color: black;
-  text-align: right;
 }
 
 .logo {
@@ -62,6 +61,7 @@ header {
 
 header nav {
   margin-left: 30px;
+  text-align: right;
 }
 
 nav span {
@@ -115,4 +115,5 @@ nav span {
 
 .featTea-text {
   text-align: center;
+  margin: 0;
 }
