@@ -88,7 +88,7 @@ nav span {
 /* Featured Tea Styles */
 .featTea {
   display: flex;
-  align-items: space-between;
+  align-items: space-around;
   width: 1000px;
   margin: 40px auto;
   padding: 0;
@@ -97,9 +97,10 @@ nav span {
 }
 
 .featTea-photo {
-  width: 300px;
-  height: 200px;
-  text-align: center;
-  margin-bottom: 10px 0;
+  margin-bottom: 10px;
   padding: 0;
+}
+
+.featTea-text {
+  text-align: center;
 }
