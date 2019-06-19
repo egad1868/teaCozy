@@ -39,6 +39,8 @@ header {
   height: 70px;
   border-bottom: 1px solid seashell;
   padding: 0 10px;
+  background-color: black;
+  top: 70px;
 }
 
 .logo {
