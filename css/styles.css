@@ -101,7 +101,7 @@ nav span {
   flex-wrap: wrap;
 
 }
-#featTea-photos {
+.featTea-photos {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
