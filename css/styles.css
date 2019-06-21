@@ -130,6 +130,7 @@ nav span {
   margin: 0 auto;
   padding: 40px 0;
   flex-wrap: wrap;
+    justify-content: center;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
   background-repeat: no-repeat;
   background-position: top;
@@ -142,7 +143,7 @@ nav span {
   padding: 10px;
   display: inline-flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   background-color: black;
   opacity: 1;
   width: 280px;
