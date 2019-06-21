@@ -24,11 +24,11 @@ h2 {
 }
 
 h3 {
-  font-size: 25px;
+  font-size: 29px;
 }
 
 h4 {
-  font-size: 29px;
+  font-size: 25px;
 }
 
 h5 {
@@ -108,12 +108,12 @@ nav span {
 }
 .featTea-photos {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   flex-wrap: wrap;
   width: 100%;
 }
 .featTea-photo {
-  margin: 10px 0;
+  margin: 10px 0 10px 20px;
   padding: 0;
   display: inline-flex;
 }
@@ -142,7 +142,7 @@ nav span {
   padding: 10px;
   display: inline-flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   background-color: black;
   opacity: 1;
   width: 280px;
