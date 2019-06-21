@@ -119,7 +119,7 @@ nav span {
   margin: 0;
 }
 /* Locations Styles */
-.location {
+.locate {
   display: flex;
   width: 1000px;
   height: 500px;
@@ -136,7 +136,9 @@ nav span {
   margin: 15px 0;
   padding: 10px;
   display: inline-flex;
-  text-align: center;
+  align-items: center;
+  justify-content: space-between;
   background-color: black 1;
   width: 300px;
+
 }
