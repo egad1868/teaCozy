@@ -136,9 +136,10 @@ nav span {
   margin: 15px 0;
   padding: 10px;
   display: inline-flex;
-  align-items: center;
+  align-content: center;
   justify-content: space-between;
-  background-color: black 1;
+  background-color: black;
+  opacity: 1;
   width: 300px;
 
 }
